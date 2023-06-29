@@ -13,17 +13,18 @@
 <body>
     <header>
         <div class="logo-wrap">
-            <img src="/images/logo.svg" alt="logo">
+            <img src="/images/logo-header.svg" alt="logo">
+            <h1>Furniro</h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#">Home</a></li>
+                <li><a class="main-nav-link" href="#">Shop</a></li>
+                <li><a class="main-nav-link" href="#">About</a></li>
+                <li><a class="main-nav-link" href="#">Contact</a></li>
             </ul>
         </nav>
-        <nav>
+        <nav class="main-user-controls">
             <a href="#">
                 <img src="/images/user.svg" alt="user">
             </a>
@@ -38,12 +39,16 @@
             </a>
         </nav>
     </header>
-        <div class="hero">
-            <span>New Arrival</span>
-            <h1>Discover Our New Collection</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-            <a href="">Buy now</a>
+    <div class="hero">
+        <div class="hero-wrap">
+            <div class="hero-content">
+                <span>New Arrival</span>
+                <p class="hero-content-header">Discover Our <br> New Collection</p>
+                <p class="hero-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
+                <a class="accent-button" href="">Buy now</a>       
+            </div>
         </div>
+    </div>
     <main>
         <section>
             <h2>Browse The Range</h2>
