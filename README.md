@@ -13,3 +13,18 @@ git checkout -b name
 git branch name
 git checkout name
 ```
+
+Остлеживание изменений файлов
+```
+git add file.name
+```
+Или отслеживание изменений всех файлов
+```
+git add .
+```
+Создание и деплой коммита на github
+```
+git commit -m "commit name"
+git push -u origin brunch-name
+```
+где `branch-name` название **вашей ветки**
