@@ -21,6 +21,12 @@ header {
     margin-right: auto;
 }
 
+.container {
+    width: 1286px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .accent-button {
     display: inline-block;
     background-color: #B88E2F;
@@ -32,6 +38,22 @@ header {
     padding: 25px 75px;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.section-header {
+    font-size: 32px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.section-text {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Header */
 .logo-wrap {
     display: flex;
     gap: 5px;
@@ -59,12 +81,13 @@ header {
     margin-left: 45px;
 }
 
+/* END Heaser */
+
 .hero {
     background-image: url(/images/home/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 .hero-wrap {
@@ -74,6 +97,7 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .hero-content span {
@@ -99,4 +123,22 @@ header {
 
 .hero-content-text {
     line-height: normal;
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+}
+
+.main-card {
+    text-align: center;
+}
+
+.main-card h3 {
+    color: #333;
+}
+
+.main-card img {
+    border-radius: 10px;
 }
