@@ -1,144 +1,312 @@
-p, span {
+p,
+span {
     font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-header {
+.header {
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 1286px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1286px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.container {
-    width: 1286px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.accent-button {
-    display: inline-block;
-    background-color: #B88E2F;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    padding: 25px 75px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.section-header {
-    font-size: 32px;
-    color: #333;
-    margin: 10px 0;
-}
-
-.section-text {
-    font-size: 20px;
-    color: #666;
-}
-
-/* Header */
-.logo-wrap {
+.logo {
     display: flex;
+    align-items: center;
     gap: 5px;
 }
 
-.logo-wrap h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.logo1 {
+    margin-left: 1.5em;
 }
 
-.main-nav-list {
-    display: flex;
-    gap: 75px;
-}
-
-.main-nav-link {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+.logo2 {
     color: #000;
+    font-size: 2.1em;
+    font-family: 'Poppins';
+    text-decoration: none;
     font-weight: 700;
 }
 
-.main-user-controls a {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.nav__list {
+    color: #000;
     text-decoration: none;
-    margin-left: 45px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
-/* END Heaser */
+.header__elements {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
 
-.hero {
-    background-image: url(/images/home/hero-bg.jpg);
+.elements__list {
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+.intro__page {
+    background-image: url("/furniro-project-main/images/intro.png");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 }
 
-.hero-wrap {
+.intro__container {
     width: 1286px;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-bottom: 60px;
 }
 
-.hero-content span {
-    display: block;
-    margin-top: 20px;
-}
-
-.hero-content {
-    display: inline-block;
-    border-radius: 10px;
+.intro__content {
     background-color: #FFF3E3;
-    padding: 40px;
-    max-height: 350px;
+    width: 40em;
+    height: 28em;
+    display: flex;
+    border-radius: 10px;
 }
 
-.hero-content-header {
-    font-size: 52px;
+.untro__content__box {
+    margin-top: 4em;
+    margin-bottom: 2.5em;
+    margin-left: 2.5em;
+    margin-right: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: first baseline;
+
+}
+
+.intro__content1 {
+    color: #333;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.intro__content2 {
     color: #B88E2F;
+    font-family: 'Poppins';
+    font-size: 4em;
+    font-style: normal;
+    margin: 0;
+}
+
+.intro__content3 {
+    color: #333;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 0;
+}
+
+.button1 {
+    background-color: #B88E2F;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins';
+    text-decoration: none;
+    padding-left: 4.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-right: 4.5em;
+}
+
+.container {
+    margin-bottom: 3.5em;
+}
+
+.text_center_big {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    font-family: 'Poppins';
     font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-.hero-content-text {
     line-height: normal;
+    margin-bottom: 0;
 }
 
-.main-cards {
+.text_center_small {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 1.25em;
+    margin: 0;
+    margin-bottom: 2.5em;
+}
+
+.main__cards {
+    width: 1286px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 60px;
+    justify-items: stretch;
+    column-gap: 2em;
 }
 
-.main-card {
+.main__card {
+
     text-align: center;
-}
-
-.main-card h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
     color: #333;
+    font-size: 1.2em;
 }
 
-.main-card img {
-    border-radius: 10px;
+.cards {
+    width: 1286px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: stretch;
+    column-gap: 1em;
+    row-gap: 1em;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F7;
+}
+
+.Products__intro {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2em;
+}
+
+.card__img__box {
+    display: flex;
+    justify-content: right;
+}
+
+.card__img__box>img {
+    z-index: 3;
+    position: relative;
+    width: 100%;
+}
+
+.sale__box {
+    background-image: url(/furniro-project-main/images/cards/Ellipse_1.jpg);
+    position: absolute;
+    z-index: 5;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-right: 1em;
+
+}
+
+.sale__box__info {
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 1em;
+}
+
+.new__product__box {
+    background-image: url(/furniro-project-main/images/cards/Ellipse_2.jpg);
+    position: absolute;
+    z-index: 5;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.new__product__box__info {
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+    margin-left: 0.4em;
+    margin-right: 0.3em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 1em;
+}
+
+.card__info__box {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #3A3A3A;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.description {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1em;
+    color: grey;
+}
+
+.start__prise {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1em;
+    color: grey;
+    text-decoration-line: line-through;
+}
+
+.card__prise__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.button2 {
+    border-style: solid;
+    border-color: #B88E2F;
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1em;
+    color: #B88E2F;
+    text-decoration: none;
+    padding: 0.75em 5em;
 }

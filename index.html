@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,137 +8,225 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Furniro</title>
 </head>
+
 <body>
-    <header>
-        <div class="logo-wrap">
-            <img src="/images/logo-header.svg" alt="logo">
-            <h1>Furniro</h1>
+    <header class="header">
+        <div class="logo">
+            <div class="logo1">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div>
+                <a class="logo2" href="#">Furniro</a>
+            </div>
+
         </div>
-        <nav class="main-nav">
-            <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Home</a></li>
-                <li><a class="main-nav-link" href="#">Shop</a></li>
-                <li><a class="main-nav-link" href="#">About</a></li>
-                <li><a class="main-nav-link" href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <nav class="main-user-controls">
-            <a href="#">
-                <img src="/images/user.svg" alt="user">
+        <div class="nav">
+            <a class="nav__list" href="#">Home</a>
+            <a class="nav__list" href="#">Shop</a>
+            <a class="nav__list" href="#">About</a>
+            <a class="nav__list" href="#">Contact</a>
+        </div>
+        <div class="header__elements">
+            <a class="elements__list" href="#">
+                <img src="images/account.png" alt="account">
             </a>
-            <a href="#">
-                <img src="/images/search.svg" alt="like">
+            <a class="elements__list" href="#">
+                <img src="images/search.png" alt="search">
             </a>
-            <a href="#">
-                <img src="/images/like.svg" alt="like">
+            <a class="elements__list" href="#">
+                <img src="images/heart.png" alt="like">
             </a>
-            <a href="#">
-                <img src="/images/cart.svg" alt="cart">
+            <a class="elements__list" href="#">
+                <img src="images/shopp.png" alt="shop">
             </a>
-        </nav>
+        </div>
     </header>
-    <div class="hero">
-        <div class="hero-wrap">
-            <div class="hero-content">
-                <span>New Arrival</span>
-                <p class="hero-content-header">Discover Our <br> New Collection</p>
-                <p class="hero-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
-                <a class="accent-button" href="">Buy now</a>       
+    <div class="intro__page">
+        <div class="intro__container">
+            <div class="intro__content">
+                <div class="untro__content__box">
+                    <p class="intro__content1">New Arrival</p>
+                    <h1 class="intro__content2">Discover Our <br> New Collection</h1>
+                    <p class="intro__content3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit
+                        tellus,
+                        luctus nec ullamcorper mattis.</p>
+                    <a class="button1" href="#">Buy now</a>
+                </div>
             </div>
         </div>
     </div>
-    <main>
+
+    <main class="main">
         <div class="container">
-            <section>
-                <h2 class="text-center section-header">Browse The Range</h2>
-                <p class="text-center section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="main-cards">
-                    <div class="main-card">
-                        <img src="/images/image-1.jpg" height="480" alt="card 1">
-                        <h3>Dining</h3>
-                    </div>
-                    <div class="main-card">
-                        <img src="/images/image-2.jpg" height="480" alt="card 2">
-                        <h3>Living</h3>
-                    </div>
-                    <div class="main-card">
-                        <img src="/images/image-3.jpg" height="480" alt="card 3">
-                        <h3>Bedroom</h3>
-                    </div>
+            <h2 class="text_center_big">Browse The Range</h2>
+            <p class="text_center_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="main__cards">
+                <div class="main__card">
+                    <img src="images/cards/image_1.jpg" alt="card 1">
+                    <h3>Dining</h3>
                 </div>
-            </section>
-            <section>
-                <h2>Our Products</h2>
-                <div>
-                    <img src="" alt="">
-                    <h3>Syltherine</h3>
-                    <p>Stylish cafe chair</p>
-                    <span>Rp 2.500.000</span>
-                    <span>Rp 3.500.000</span>
+                <div class="main__card">
+                    <img src="images/cards/image_2.jpg" alt="card 2">
+                    <h3>Living</h3>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>Leviosa</h3>
-                    <p>Stylish cafe chair</p>
-                    <span>Rp 2.500.000</span>
+                <div class="main__card">
+                    <img src="images/cards/image_3.jpg" alt="card 3">
+                    <h3>Bedroom</h3>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>Lolito</h3>
-                    <p>Luxury big sofa</p>
-                    <span>Rp 7.000.000</span>
-                    <span>Rp 14.000.000</span>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>Respira</h3>
-                    <p>Outdoor bar table and stool</p>
-                    <span>Rp 500.000</span>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>Grifo</h3>
-                    <p>Night lamp</p>
-                    <span>Rp 1.500.000</span>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>Muggo</h3>
-                    <p>Small mug</p>
-                    <span>Rp 150.000</span>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>Pingky</h3>
-                    <p>Cute bed set</p>
-                    <span>Rp 7.000.000</span>
-                    <span>Rp 14.000.000</span>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>Potty</h3>
-                    <p>Minimalist flower pot</p>
-                    <span>Rp 500.000</span>
-                </div>
-                <a href="">Show More</a>
-            </section>
-            <section>
-                <p>50+ Beautiful rooms inspiration</p>
-                <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
-                <a href="">Explore More</a>
-            </section>
-            <section>
-                <p>Share your setup with</p>
-                <h2>#FuniroFurniture</h2>
-            </section>
+            </div>
         </div>
+        <div class="container">
+            <h2 class="Products__intro">Our Products</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <div class="sale__box__info">
+                                -30%
+                            </div>
+                        </div>
+                        <img src="images/cards/card_1.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Syltherine</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p>Rp 2.500.000</p>
+                            <p class="start__prise">Rp 3.500.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <img src="images/cards/card_2.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Leviosa</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p>Rp 2.500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <div class="sale__box__info">
+                                -50%
+                            </div>
+                        </div>
+                        <img src="images/cards/card_3.png" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Lolito</h3>
+                        <p class="description">Luxury big sofa</p>
+                        <div class="card__prise__box">
+                            <p>Rp 7.000.000</p>
+                            <p class="start__prise">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="new__product__box">
+                            <div class="new__product__box__info">
+                                New
+                            </div>
+                        </div>
+                        <img src="images/cards/card_4.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Respira</h3>
+                        <p class="description">Outdoor bar table and stool</p>
+                        <div class="card__prise__box">
+                            <p>Rp 500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <img src="images/cards/card_5.png" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Grifo</h3>
+                        <p class="description">Night lamp</p>
+                        <div class="card__prise__box">
+                            <p>Rp 1.500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="new__product__box">
+                            <div class="new__product__box__info">
+                                New
+                            </div>
+                        </div>
+                        <img src="images/cards/card_6.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Muggo</h3>
+                        <p class="description">Small mug</p>
+                        <div class="card__prise__box">
+                            <p>Rp 150.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <div class="sale__box__info">
+                                -50%
+                            </div>
+                        </div>
+                        <img src="images/cards/card_7.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Pingky</h3>
+                        <p class="description">Cute bed set</p>
+                        <div class="card__prise__box">
+                            <p>Rp 7.000.000</p>
+                            <p class="start__prise">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="new__product__box">
+                            <div class="new__product__box__info">
+                                New
+                            </div>
+                        </div>
+                        <img src="images/cards/card_8.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Potty</h3>
+                        <p class="description">Minimalist flower pot</p>
+                        <div class="card__prise__box">
+                            <p>Rp 500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <a class="button2" href="#">Show More</a>
+        </div>
+
     </main>
+
     <footer>
-        <p>2023 furino. All rights reverved</p>
+
     </footer>
     <script src="/assets/script.js"></script>
 </body>
+
 </html>
