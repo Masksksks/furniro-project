@@ -218,14 +218,12 @@ h6 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: stretch;
-    column-gap: 1em;
-    row-gap: 1em;
-
+    column-gap: 2em;
+    row-gap: 2em;
 }
 
 .card {
     position: relative;
-
     display: flex;
     flex-direction: column;
     background-color: #F4F5F7;
@@ -247,9 +245,7 @@ h6 {
 }
 
 .card__img__box>img {
-
     width: 100%;
-
 }
 
 .sale__box {
@@ -263,11 +259,9 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .sale__box__info {
-
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -309,8 +303,12 @@ h6 {
     margin-bottom: 30px;
 }
 
-.card__info__box>p,
-h3 {
+.card__info__box>h3 {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -319,9 +317,12 @@ h3 {
     font-weight: 500;
     font-size: 1em;
     color: grey;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .start__prise {
+    color: gray;
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 1em;
@@ -332,10 +333,19 @@ h3 {
 .card__prise__box {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.card__prise__box>p {
+.card__hover_box>p {
     margin: 0;
+}
+
+.new__prise {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .card__hover_box {
