@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Furniro</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__conteiner">
+            <a href="#">
+                <div class="logo">
+                    <div class="logo1">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div>
+                        <p class="logo2" href="#">Furniro</p>
+                    </div>
+                </div>
+            </a>
+            <div class="nav">
+                <a class="nav__list" href="/index.html">Home</a>
+                <a class="nav__list" href="/shop.html">Shop</a>
+                <a class="nav__list" href="#">About</a>
+                <a class="nav__list" href="#">Contact</a>
+            </div>
+            <div class="header__elements">
+                <a class="elements__list" href="#">
+                    <img src="images/account.png" alt="account">
+                </a>
+                <a class="elements__list" href="#">
+                    <img src="images/search.png" alt="search">
+                </a>
+                <a class="elements__list" href="#">
+                    <img src="images/heart.png" alt="like">
+                </a>
+                <a class="elements__list" href="#">
+                    <img src="images/shopp.png" alt="shop">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="shop__preview">
+            <div class="shop__preview__info">
+                <h3>Shop</h3>
+                <div class="shop__home">
+                    <span>Home</span>
+                    <img src="/images/shop/aroow.svg" alt="arrow">
+                    <p>Shop</p>
+                </div>
+            </div>
+        </div>
+        <!--SETTINGS-->
+        <div class="shop__settings">
+            <div class="shop__settings__conteiner">
+                <div class="shop__settings__conteiner__wrap">
+                    <div class="shop__filter__left">
+                        <button class="shop__filter__button">
+                            <img src="/images/shop/system-uicons_filtering.svg" alt="">
+                        </button>
+                        <p>Filter</p>
+                        <button class="shop__grig__button">
+                            <img src="/images/shop/ci_grid-big-round.svg" alt="">
+                        </button>
+                        <button class="shop__view-list__button">
+                            <img src="/images/shop/bi_view-list.svg" alt="">
+                        </button>
+                        <hr class="settings__line">
+                        <span>Showing 1-16 of 32 results</span>
+                    </div>
+                    <div class="shop__filter__right">
+                        <div class="shop__show">
+                            <p>Show</p>
+                            <form>
+                                <input class="shop__show__input" type="text" id="show" placeholder="16">
+                            </form>
+                        </div>
+                        <div class="shop__short">
+                            <p>Short by</p>
+                            <form>
+                                <input class="shop__short__input" type="text" id="short" placeholder="Default">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--CARDS-->
+        <div class="cards__conteiner">
+            <div class="cards">
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -30%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_1.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Syltherine</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise">Rp 3.500.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <img src="images/cards/card_2.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Leviosa</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -50%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_3.png" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Lolito</h3>
+                        <p class="description">Luxury big sofa</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 7.000.000</p>
+                            <p class="start__prise">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="new__product__box">
+                            <span class="new__product__box__info">
+                                New
+                            </span>
+                        </div>
+                        <img src="images/cards/card_4.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Respira</h3>
+                        <p class="description">Outdoor bar table and stool</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -30%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_1.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Syltherine</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise">Rp 3.500.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <img src="images/cards/card_2.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Leviosa</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -50%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_3.png" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Lolito</h3>
+                        <p class="description">Luxury big sofa</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 7.000.000</p>
+                            <p class="start__prise">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="new__product__box">
+                            <span class="new__product__box__info">
+                                New
+                            </span>
+                        </div>
+                        <img src="images/cards/card_4.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Respira</h3>
+                        <p class="description">Outdoor bar table and stool</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -30%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_1.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Syltherine</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise">Rp 3.500.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <img src="images/cards/card_2.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Leviosa</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -50%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_3.png" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Lolito</h3>
+                        <p class="description">Luxury big sofa</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 7.000.000</p>
+                            <p class="start__prise">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="new__product__box">
+                            <span class="new__product__box__info">
+                                New
+                            </span>
+                        </div>
+                        <img src="images/cards/card_4.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Respira</h3>
+                        <p class="description">Outdoor bar table and stool</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -30%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_1.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Syltherine</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise">Rp 3.500.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <img src="images/cards/card_2.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Leviosa</h3>
+                        <p class="description">Stylish cafe chair</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 2.500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="sale__box">
+                            <span class="sale__box__info">
+                                -50%
+                            </span>
+                        </div>
+                        <img src="images/cards/card_3.png" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Lolito</h3>
+                        <p class="description">Luxury big sofa</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 7.000.000</p>
+                            <p class="start__prise">Rp 14.000.000</p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__box">
+                        <div class="new__product__box">
+                            <span class="new__product__box__info">
+                                New
+                            </span>
+                        </div>
+                        <img src="images/cards/card_4.jpg" alt="">
+                    </div>
+                    <div class="card__info__box">
+                        <h3>Respira</h3>
+                        <p class="description">Outdoor bar table and stool</p>
+                        <div class="card__prise__box">
+                            <p class="new__prise">Rp 500.000</p>
+                            <p class="start__prise"></p>
+                        </div>
+                    </div>
+                    <div class="card__hover_box">
+                        <button class="card__hover_box__button">Add to cart</button>
+                        <div class="card__hover_box__frame">
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Share.svg" alt="share">
+                                    <p>Share</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Compare.svg" alt="compare">
+                                    <p>Compare</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="card__hover_box__frame_scl">
+                                    <img src="images/hover/Like.svg" alt="like">
+                                    <p>Like</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop__pages">
+                <ul>
+                    <li class="shop__pages__numbers">
+                        <a href="#">1</a>
+                    </li>
+                    <li class="shop__pages__numbers">
+                        <a href="#">2</a>
+                    </li>
+                    <li class="shop__pages__numbers">
+                        <a href="#">3</a>
+                    </li>
+                    <li class="shop__pages__next">
+                        <a href="#">Next</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="achivmet">
+            <div class="achivmet__conteiner">
+                <div class="achivmet__conteiner__wrap">
+                    <div class="achivmet__wrap">
+                        <img src="/images/shop/trophy 1.svg" alt="">
+                        <div class="achivmet__info">
+                            <h3>High Quality</h3>
+                            <p>crafted from top materials</p>
+                        </div>
+                    </div>
+                    <div class="achivmet__wrap">
+                        <img src="/images/shop/guarantee.svg" alt="">
+                        <div class="achivmet__info">
+                            <h3>Warranty Protection</h3>
+                            <p>Over 2 years</p>
+                        </div>
+                    </div>
+                    <div class="achivmet__wrap">
+                        <img src="/images/shop/shipping.svg" alt="">
+                        <div class="achivmet__info">
+                            <h3>Free Shipping</h3>
+                            <p>Order over 150 $</p>
+                        </div>
+                    </div>
+                    <div class="achivmet__wrap">
+                        <img src="/images/shop/customer-support.svg" alt="">
+                        <div class="achivmet__info">
+                            <h3>24 / 7 Support</h3>
+                            <p>Dedicated support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr class="footer__line">
+
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__main__wrap1">
+                <div class="footer__wrap1__content">
+                    <div class="footer__wrap1__content1">
+                        <h3>Furniro.</h3>
+                        <p>400 University Drive Suite 200 Coral <br> Gables, <br> FL 33134 USA</p>
+                    </div>
+                    <div class="footer__wrap1__content2">
+                        <div class="footer__links_helps">
+                            <span class="lha">Links</span>
+                            <a href="/index.html">Home</a>
+                            <a href="/shop.html">Shop</a>
+                            <a href="">About</a>
+                            <a href="">Contact</a>
+                        </div>
+                        <div class="footer__links_helps">
+                            <span class="lha">Help</span>
+                            <a href="#">Payment Options</a>
+                            <a href="#">Returns</a>
+                            <a href="#">Privacy Policies</a>
+                        </div>
+                    </div>
+                    <div class="footer__wrap1__content3">
+                        <span class="lha">Newsletter</span>
+                        <div class="subskribe">
+                            <div class="subskribe1">
+                                <form>
+                                    <input class="subskribe__input" type="text" id="name"
+                                        placeholder="Enter Your Email Address">
+                                </form>
+                                <hr class="line">
+                            </div>
+                            <div class="subskribe2">
+                                <a href="#">SUBSCRIBE</a>
+                                <hr class="line">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__main__wrap2">
+                <hr class="line__footer__wrap2">
+                <p>2023 furino. All rights reverved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>
